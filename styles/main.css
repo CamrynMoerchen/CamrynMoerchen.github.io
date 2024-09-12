@@ -1,0 +1,28 @@
+/* Name: Camryn Moerchen 
+   Stylesheet:  main.css
+   Stylesheet Description: This stylesheet styles all of the pages for the website.
+*/
+
+/* import reset */
+@import url("reset.css"); 
+
+/* import google font nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* the html element*/
+:root {
+  /* set variables for commonly used colours */
+  --dark: #2C4251;
+  --light: #FFE1C6;
+  --otherPink: #FFC6D9;
+  --otherBlue: #25CED1;
+
+  /* fallback for browsers that don't use variables */
+  color: #2C4251;
+  background-color: #FFE1C6;
+
+  /* override fallback with desired color variables */
+  background-color: var(--light);
+  color: var(--dark);
+  font-family: "Nunito", sans-serif; /*google font nunito*/
+}
