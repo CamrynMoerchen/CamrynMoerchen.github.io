@@ -16,6 +16,7 @@
   --light: #FFE1C6;
   --otherPink: #FFC6D9;
   --otherBlue: #25CED1;
+  --otherWhite: #FDF8F3;
 
   /* fallback for browsers that don't use variables */
   color: #2C4251;
@@ -25,4 +26,60 @@
   background-color: var(--light);
   color: var(--dark);
   font-family: "Nunito", sans-serif; /*google font nunito*/
+  background-image: url("../images/homeVector.svg")
+
+}
+
+header{
+    align-items: center; /* centering the items in the header */
+    padding: 1rem;
+    background-color: var(--otherPink);
+}
+  
+nav a{
+    /* creating the 'buttons' for the navigation */
+    color: var(--dark);
+    font-size: 1.25rem;
+    padding: 1rem;
+    text-decoration: none; /* removing the underline from the link */
+}
+
+nav a:hover{
+    /* changing the color of the nav button when it's hovered over */
+    color: var(--otherWhite);
+    background-color: var(--otherBlue);
+  
+}
+
+
+/*Heading Styles*/
+
+h1{
+    font-weight: 800;
+    font-size: 3.25rem;
+    min-width: fit-content;
+}
+
+/*Footer Styles*/
+footer{
+    color: var(--otherWhite);
+    font-size: 1rem;
+    align-self: center; 
+}
+
+/*Creating flex boxes*/
+header, nav, main, body, section{
+    display: flex;
+}
+
+body, main{
+    flex-direction: column; /* main flexboxes that will be in a vertical direction */
+}
+
+main{
+    background-color: var(--otherWhite);
+    box-shadow: 1rem 1rem rgba(253, 248, 243, 0.7);
+    border-radius: 1rem;
+    padding: 3rem;
+    margin: 3rem;
 }
