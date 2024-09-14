@@ -35,13 +35,18 @@ header{
     padding: 1rem;
     background-color: var(--otherPink);
 }
-  
+
+nav{
+    margin-left: 1rem;
+}
+
 nav a{
     /* creating the 'buttons' for the navigation */
     color: var(--dark);
     font-size: 1.25rem;
     padding: 1rem;
     text-decoration: none; /* removing the underline from the link */
+    font-weight: 800;
 }
 
 nav a:hover{
@@ -82,4 +87,9 @@ main{
     border-radius: 1rem;
     padding: 3rem;
     margin: 3rem;
+}
+
+p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
 }
