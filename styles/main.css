@@ -77,7 +77,7 @@ header, nav, main, body, section{
     display: flex;
 }
 
-body, main{
+body, section{
     flex-direction: column; /* main flexboxes that will be in a vertical direction */
 }
 
@@ -91,5 +91,10 @@ main{
 
 p{
     margin-top: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+}
+
+section{
+    width: 75%;
 }
